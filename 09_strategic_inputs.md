@@ -1,0 +1,329 @@
+# Strategic Inputs: Synthesized View
+
+*This document synthesizes all inputs into an actionable reference for planning.*
+
+---
+
+## North Star Metrics (Phased)
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    METRICS PYRAMID                              │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│                      12+ MONTHS                                 │
+│                    ┌───────────┐                                │
+│                    │ COVERAGE  │                                │
+│                    │ Unique    │                                │
+│                    │ Accounts  │                                │
+│                    └─────┬─────┘                                │
+│                          │                                      │
+│                    6-9 MONTHS                                   │
+│               ┌──────────────────┐                              │
+│               │   ATTACH RATES   │                              │
+│               │   SKU + Use Case │                              │
+│               │   Expansion      │                              │
+│               └────────┬─────────┘                              │
+│                        │                                        │
+│                   3-6 MONTHS                                    │
+│          ┌─────────────────────────┐                            │
+│          │    STRATEGIC WINS       │                            │
+│          │    Decisive account     │                            │
+│          │    wins proving value   │                            │
+│          └─────────────────────────┘                            │
+│                                                                 │
+│  Earlier phases MUST succeed for later phases to be meaningful  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+| Phase | North Star | Definition | Why This Sequence |
+|-------|------------|------------|-------------------|
+| **3-6 months** | Strategic Wins | Decisive account wins with Apps delivering clear business value | Proves hypothesis, gets exec buy-in |
+| **6-9 months** | Attach Rates | SKU and use case attach driven by Apps | Validates "tip of spear" positioning |
+| **12+ months** | Coverage | Unique accounts with production Apps deployed | Scales proven motion |
+
+---
+
+## Scope and Stakeholders
+
+### Primary Stakeholders
+
+| Level | Role | Engagement Goal |
+|-------|------|-----------------|
+| **SVP** | Field Engineering Leadership | Executive sponsorship for change |
+| **VP** | Vertical FE Leaders | Vertical-specific adoption motion |
+
+### Verticals in Scope
+
+| Vertical | Abbrev | Notes |
+|----------|--------|-------|
+| Manufacturing | MFG | |
+| Retail | RTL | |
+| Health and Life Sciences | HLS | Regulated—security/compliance critical |
+| Financial Services | FSI | Regulated—security/compliance critical |
+| Digital Natives | DN | Often more mature, faster adopters |
+
+### Geographic Scope
+
+**Global** - No regional restrictions
+
+---
+
+## Control Surface
+
+### Control vs. Impact Matrix
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                  CONTROL vs IMPACT MATRIX                       │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   HIGH     │ INFLUENCE ZONE          │ POWER ZONE              │
+│   IMPACT   │ (Low Control/High Impact)│ (High Control/High Impact)
+│            │                          │                         │
+│            │ • Product roadmap        │ • Playbooks/guides      │
+│            │ • Field comp plans       │ • Enablement content    │
+│            │ • Pricing decisions      │ • Adoption metrics      │
+│            │ • SI/ISV contracts       │ • Loss analysis         │
+│            │ • Marketing campaigns    │ • PM feedback synthesis │
+│            │                          │ • Discovery workshops   │
+│            │ → Need influence strategy│ → Own and execute       │
+│            │                          │                         │
+│   ─────────┼──────────────────────────┼─────────────────────────│
+│            │                          │                         │
+│   LOW      │ MONITOR ZONE            │ EFFICIENCY ZONE          │
+│   IMPACT   │ (Low Control/Low Impact) │ (High Control/Low Impact)│
+│            │                          │                         │
+│            │ • Headcount decisions    │ • Meeting logistics     │
+│            │ • Tool/platform choices  │ • Doc formatting        │
+│            │ • Org restructures       │ • Report frequency      │
+│            │                          │                         │
+│            │ → Watch, don't invest    │ → Automate/delegate     │
+│            │                          │                         │
+│            └──────────────────────────┴─────────────────────────│
+│                    LOW CONTROL              HIGH CONTROL         │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Detailed Control-Impact Assessment
+
+| Area | Control | Impact | Quadrant | Your Strategy |
+|------|---------|--------|----------|---------------|
+| **Playbooks & Best Practices** | 🟢 High | 🟢 High | POWER | Own end-to-end, prioritize quality |
+| **Enablement Content** | 🟢 High | 🟢 High | POWER | Create, iterate based on field feedback |
+| **Adoption Metrics/Dashboards** | 🟢 High | 🟢 High | POWER | Build credibility through data |
+| **Loss Analysis** | 🟢 High | 🟢 High | POWER | Make visible, drive accountability |
+| **PM Feedback Synthesis** | 🟢 High | 🟢 High | POWER | Structured, timely, actionable |
+| **Discovery Workshops** | 🟢 High | 🟢 High | POWER | Design, pilot, scale |
+| **Messaging/Narrative** | 🟡 Medium | 🟢 High | INFLUENCE | Partner with Marketing, validate with field |
+| **Product Roadmap** | 🔴 Low | 🟢 High | INFLUENCE | Data-backed PM feedback, strategic wins as proof |
+| **Field Comp Plans** | 🔴 Low | 🟢 High | INFLUENCE | Exec sponsorship, attach rate data |
+| **Pricing Decisions** | 🔴 Low | 🟢 High | INFLUENCE | Customer feedback, competitive intel |
+| **SI/ISV Contracts** | 🔴 Low | 🟡 Medium | INFLUENCE | Partner team relationship, success stories |
+| **Marketing Campaigns** | 🔴 Low | 🟡 Medium | INFLUENCE | Provide content, customer stories |
+| **Headcount** | 🔴 Low | 🔴 Low | MONITOR | Accept constraint, optimize within it |
+
+### Influence Strategies for High-Impact / Low-Control Areas
+
+| Area | Why It Matters | Influence Lever | Specific Actions |
+|------|----------------|-----------------|------------------|
+| **Product Roadmap** | Scalability/cost gaps block adoption | Data-backed PM feedback | Weekly blocker synthesis, loss analysis with attribution |
+| **Field Comp Plans** | Reps won't sell what doesn't pay | Exec sponsorship + attach data | Prove influenced revenue, propose Apps attach incentive |
+| **Pricing Decisions** | Cost objections kill deals | Customer feedback loop | Document competitive losses, quantify price sensitivity |
+| **Messaging/Narrative** | Field needs consistent story | Strategic wins as proof | Package wins into marketing-ready stories |
+| **SI/ISV Contracts** | Scale requires partners | Success stories | Build 1-2 SI lighthouse successes, share with partner team |
+
+### Influence Escalation Path
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                  INFLUENCE ESCALATION PATH                      │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   LEVEL 1: DATA                                                 │
+│   ─────────────                                                 │
+│   Present evidence: metrics, loss analysis, customer quotes     │
+│   "Here's what we're seeing in the field..."                    │
+│                        │                                        │
+│                        ▼                                        │
+│   LEVEL 2: PROPOSAL                                             │
+│   ─────────────────                                             │
+│   Offer specific recommendation with expected impact            │
+│   "Based on data, we recommend X, expecting Y outcome..."       │
+│                        │                                        │
+│                        ▼                                        │
+│   LEVEL 3: EXEC SPONSORSHIP                                     │
+│   ─────────────────────────                                     │
+│   Engage SVP/VP to champion the change                          │
+│   "We've aligned with [Exec] who supports this change..."       │
+│                        │                                        │
+│                        ▼                                        │
+│   LEVEL 4: STRATEGIC WIN                                        │
+│   ──────────────────────                                        │
+│   Prove impact with customer success, then generalize           │
+│   "We did this with [Customer], here's the result..."           │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Critical Influence Priorities (Next 90 Days)
+
+| Priority | Area | Current State | Target State | Influence Action |
+|----------|------|---------------|--------------|------------------|
+| **1** | Product Roadmap (Scalability/Cost) | Feedback fragmented | Structured PM intake | Weekly blocker synthesis to PM |
+| **2** | Field Comp Plans | No Apps incentive | Apps attach in comp | Prove attach rate, propose to FE leadership |
+| **3** | Messaging/Narrative | Varies by rep | Consistent "tip of spear" | Package 3 strategic wins into talk track |
+
+### What Success Looks Like
+
+| Area | 6-Month Outcome | Evidence |
+|------|-----------------|----------|
+| **Product Roadmap** | 2+ features prioritized based on your feedback | PM credits adoption team input |
+| **Field Comp Plans** | Apps attach recognized in comp discussion | FE leadership socializes concept |
+| **Messaging** | "Tip of spear" narrative used consistently | Hear it in field calls, see it in decks |
+
+---
+
+## Top 3 Blockers (Prioritized)
+
+| Rank | Blocker | Type | Urgency | Your Action |
+|------|---------|------|---------|-------------|
+| **1** | Scalability + Cost Controls | Product Gap | 🔴 Critical | PM feedback, manage field expectations |
+| **2** | Security/Compliance for AI Apps | Enablement Gap | 🔴 Critical | Create patterns, training content |
+| **3** | App Architecture Uncertainty | Enablement Gap | 🟡 Important | Reference architectures (not urgent) |
+
+### Blocker Resolution Strategy
+
+| Blocker | Short-term (90 days) | Mid-term (6 months) |
+|---------|----------------------|---------------------|
+| **Scalability/Cost** | Set expectations, position for right use cases | Product delivers app spaces improvements |
+| **Security/Compliance** | Create security patterns playbook | Mandatory training for regulated verticals |
+| **Architecture** | Basic patterns in cookbook | Full reference architectures |
+
+---
+
+## Field Enablement Priorities
+
+### 90-Day Training Sprint
+
+| Topic | Priority | Format | Owner |
+|-------|----------|--------|-------|
+| Security/governance patterns | 🔴 High | Playbook + workshop | Adoption Architect |
+| App discovery workshop | 🔴 High | Interactive workshop | Adoption Architect + Enablement |
+| Competitive talk track | 🔴 High | One-pager + role-play | Adoption Architect |
+| Reference architectures | 🟡 Medium | Documentation | Adoption Architect |
+| Cost/scaling guidance | 🟡 Medium | FAQ + decision tree | Adoption Architect + PM |
+
+### Enablement Sequencing
+
+```
+Week 1-4:   Security/governance patterns (regulated verticals first)
+Week 5-8:   App discovery workshop (all verticals)
+Week 9-12:  Competitive talk track (all verticals)
+Ongoing:    Reference architectures, cost guidance (as product matures)
+```
+
+---
+
+## Adoption Targeting Framework
+
+### App Archetype Targeting
+
+| Archetype | Target Signal | Customer Profile | Priority |
+|-----------|---------------|------------------|----------|
+| **Business Cockpit** | Unity Catalog adoption | Established lakehouse, business stakeholder interest | 🔴 High |
+| **Deep Vertical** | AI adoption signals | Strategic lighthouse, needs beachhead, analytical maturity | 🔴 High |
+| **Horizontal** | Small teams OR large business presence | Platform productivity, new persona expansion | 🟡 Medium |
+
+### Lighthouse Account Selection Criteria
+
+| Signal | Why It Matters |
+|--------|----------------|
+| **Strat Hunter designation** | Pre-qualified strategic importance |
+| **High platform adoption** | Data gravity creates Apps opportunity |
+| **Strong data gravity** | More data = more Apps use cases |
+| **AI maturity** | Deep vertical app opportunity |
+| **Strong partner ecosystem** | SI/ISV can accelerate delivery |
+
+---
+
+## Attach Rate Measurement
+
+### Definition Hierarchy (Priority Order)
+
+| Priority | Definition | Credibility | Trackability |
+|----------|------------|-------------|--------------|
+| **1** | App-led deals where Apps was primary value narrative in MEDDICC notes / SFDC fields | 🟢 High | 🟡 Medium |
+| **2** | Apps opportunity sourced, plus downstream workload expansion within 2 quarters | 🟢 High | 🟢 High |
+| **3** | Apps deployed in account AND uses feature X (Lakebase / Unity / model serving) within 90 days | 🟡 Medium | 🟢 High |
+
+### BU Leader Alignment Strategy
+
+**Principle:** Credibility > Trackability
+
+1. Start with Definition #1 (qualitative, high credibility)
+2. Build tracking for Definition #2 and #3 in parallel
+3. Once data exists, shift to quantitative definitions
+4. Always supplement with strategic win narratives
+
+---
+
+## Operating Cadence
+
+### Existing Forums
+
+| Forum | Frequency | Participants | Purpose |
+|-------|-----------|--------------|---------|
+| Cross-functional sync | Weekly | PM + Field + Specialists | Adoption signals, blockers |
+| Leadership briefing | Regular | Product + Field leaders | Metrics, loss analysis, strategic wins |
+
+### Proposed: Apps Adoption Council
+
+| Element | Design |
+|---------|--------|
+| **Frequency** | Weekly (30-45 min) |
+| **Participants** | PM lead, FE vertical reps, Adoption Architect, Enablement |
+| **Standing Agenda** | 1) Strategic wins update, 2) Blocker triage, 3) Enablement gaps, 4) PM feedback queue |
+| **Output** | Weekly summary to FE leadership |
+
+---
+
+## Tip of the Spear Narrative
+
+### One-Sentence Positioning
+
+> "Apps are Tip of the Spear for platform adoption: Apps can serve as the entry point and container to land workloads across ETL, DW, ML, AI Agents, and Operational use cases—driving influenced revenue, expanding growth rate of other SKUs, and far exceeding direct Apps revenue."
+
+### Narrative Flow
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    TIP OF THE SPEAR                             │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   ENTRY POINT          CONTAINER           EXPANSION            │
+│   ───────────          ─────────           ─────────            │
+│   Apps land the        Apps bundle         Apps drive           │
+│   conversation         workloads           influenced           │
+│   with business                            revenue              │
+│                                                                 │
+│   "Here's a cockpit    "To power this      "Now they need       │
+│   for your business"   app, we use..."     ETL, DW, ML..."      │
+│                                                                 │
+│   ┌─────────┐         ┌─────────┐         ┌─────────┐          │
+│   │  APPS   │ ──────► │  ETL    │ ──────► │   DW    │          │
+│   └─────────┘         │  AI     │         │   ML    │          │
+│                       │  Agents │         │  Agents │          │
+│                       └─────────┘         └─────────┘          │
+│                                                                 │
+│   Result: Influenced revenue >> Direct Apps revenue             │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+*Last Updated: January 2026*
+
