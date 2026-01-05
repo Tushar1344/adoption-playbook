@@ -127,6 +127,29 @@ These apps **expand the addressable user base** for Databricks:
 
 ---
 
+## Archetype Targeting Matrix
+
+Archetypes are **not mutually exclusive**—a customer may fit multiple patterns. Use signals to identify which archetypes apply:
+
+| Signal | Cockpit | Vertical | Horizontal |
+|--------|:-------:|:--------:|:----------:|
+| **Unity Catalog adopted** | ✅ | | |
+| **AI/ML maturity (models in prod)** | | ✅ | |
+| **Large business user base** | ✅ | | ✅ |
+| **Deep domain pain point** | | ✅ | |
+| **Platform productivity needs** | | | ✅ |
+| **Strong data gravity** | ✅ | ✅ | |
+| **Executive sponsorship** | ✅ | ✅ | |
+| **Small technical team** | | | ✅ |
+
+**How to Use:**
+1. Assess customer against each signal
+2. Check which archetypes light up
+3. Multiple ✅ = pursue multiple playbooks in parallel
+4. Prioritize based on customer's stated priorities
+
+---
+
 ## Use Case Qualification Framework
 
 ### Fit Assessment Questions

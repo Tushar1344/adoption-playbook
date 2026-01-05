@@ -7,35 +7,36 @@ Databricks' strength in the app space comes from **platform synergy**, not stand
 ### The Databricks Apps Moat
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    DATABRICKS APPS MOAT                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │
-│  │  GOVERNANCE  │  │   LAKEBASE   │  │    AI/ML     │          │
-│  │              │  │              │  │              │          │
-│  │ • End-to-end │  │ • Serverless │  │ • Co-located │          │
-│  │ • Observable │  │ • Scalable   │  │   models     │          │
-│  │ • Secure     │  │ • Branchable │  │ • Native     │          │
-│  │ • Credential │  │ • Auto-sync  │  │   agents     │          │
-│  │   passthru   │  │   analytics  │  │ • Platform   │          │
-│  │              │  │              │  │   integrated │          │
-│  └──────────────┘  └──────────────┘  └──────────────┘          │
-│           │               │                │                    │
-│           └───────────────┼────────────────┘                    │
-│                           ▼                                     │
-│              ┌─────────────────────┐                            │
-│              │   ADOPTION FLYWHEEL │                            │
-│              │   Synergies accelerate                           │
-│              │   product adoption                               │
-│              └─────────────────────┘                            │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                           DATABRICKS APPS MOAT                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐  │
+│  │ UNITY CATALOG │  │   LAKEBASE    │  │    AI/ML      │  │   SQL/JOBS    │  │
+│  │               │  │               │  │               │  │               │  │
+│  │ • End-to-end  │  │ • Serverless  │  │ • Co-located  │  │ • Workflows   │  │
+│  │ • Observable  │  │ • Scalable    │  │   models      │  │ • Scheduling  │  │
+│  │ • Secure      │  │ • Branchable  │  │ • Native      │  │ • Serverless  │  │
+│  │ • Credential  │  │ • Auto-sync   │  │   agents      │  │   compute     │  │
+│  │   passthru    │  │   analytics   │  │ • Platform    │  │ • ETL/ELT     │  │
+│  │ • Lineage     │  │               │  │   integrated  │  │   pipelines   │  │
+│  └───────────────┘  └───────────────┘  └───────────────┘  └───────────────┘  │
+│          │                 │                  │                  │           │
+│          └─────────────────┴──────────────────┴──────────────────┘           │
+│                                    │                                         │
+│                                    ▼                                         │
+│                       ┌───────────────────────┐                              │
+│                       │   ADOPTION FLYWHEEL   │                              │
+│                       │   Synergies accelerate│                              │
+│                       │   product adoption    │                              │
+│                       └───────────────────────┘                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Pillar 1: End-to-End Governance
+## Pillar 1: Unity Catalog (Governance)
 
 | Capability | Value Proposition |
 |------------|-------------------|
@@ -44,7 +45,7 @@ Databricks' strength in the app space comes from **platform synergy**, not stand
 | **Security** | Enterprise-grade security inherited from platform |
 | **Compliance** | Single control plane for regulatory requirements |
 
-**Why It Matters:** Enterprises don't want to manage separate governance for apps vs. data. Databricks eliminates this friction.
+**Why It Matters:** Enterprises don't want to manage separate governance for apps vs. data. Unity Catalog eliminates this friction.
 
 ---
 
@@ -74,9 +75,22 @@ Databricks' strength in the app space comes from **platform synergy**, not stand
 
 ---
 
+## Pillar 4: SQL/Jobs (Compute & Orchestration)
+
+| Capability | Value Proposition |
+|------------|-------------------|
+| **Serverless SQL** | Instant, scalable query execution |
+| **Workflows** | Orchestrate data pipelines and app logic |
+| **Job Scheduling** | Reliable, time-based and event-driven execution |
+| **ETL/ELT Pipelines** | Native data transformation for apps |
+
+**Why It Matters:** Apps need reliable compute and orchestration. Databricks SQL and Jobs provide serverless, scalable infrastructure without managing clusters.
+
+---
+
 ## The Flywheel Effect
 
-The synergies between Lakebase, Governance, and AI create an **adoption flywheel**:
+The synergies between Unity Catalog, Lakebase, AI/ML, and SQL/Jobs create an **adoption flywheel**:
 
 1. Customer builds app on Databricks → uses Lakebase for operational data
 2. Lakebase syncs with Lakehouse → analytics and ML available on same data

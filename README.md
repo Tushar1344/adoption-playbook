@@ -103,6 +103,23 @@ The action—plans, gaps, and traceability.
 
 ## How to Use This Playbook
 
+```mermaid
+flowchart LR
+    subgraph Foundation["📚 Foundation (Ch 1-6)"]
+        A[Understand Context]
+    end
+    subgraph Framework["🧠 Framework (Ch 7-9)"]
+        B[Shape Strategy]
+    end
+    subgraph Execution["⚡ Execution (Ch 10-12)"]
+        C[Take Action]
+    end
+    
+    A --> B --> C
+    C -->|Validate & Learn| B
+    B -->|Update Context| A
+```
+
 1. **Start with [Chapter 1](01_mission_and_role.md)** to understand the role
 2. **Read [Chapter 8](08_hypotheses_and_beliefs.md)** to see the core beliefs
 3. **Execute from [Chapter 10](10_action_plan.md)** week by week

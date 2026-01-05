@@ -40,6 +40,39 @@ Each action in this plan tests one or more hypotheses. Use [12_traceability.md](
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+### Visual Roadmap
+
+```mermaid
+gantt
+    title 12-Month Adoption Roadmap
+    dateFormat  YYYY-MM
+    axisFormat  %b
+
+    section Phase 1: Prove It
+    Lighthouse accounts (10-15)     :p1a, 2026-01, 2w
+    Apps Adoption Council launch    :p1b, 2026-01, 2w
+    Security patterns draft         :p1c, after p1a, 2w
+    FE confidence baseline          :p1d, after p1a, 2w
+    Attach rate definition          :p1e, after p1c, 2w
+    Exec briefing deck              :p1f, after p1e, 2w
+    Competitive talk track          :p1g, 2026-02, 4w
+    Strategic wins (3-5)            :milestone, p1m, 2026-03, 1d
+
+    section Phase 2: Scale It
+    Attach tracking system          :p2a, 2026-04, 4w
+    Playbook v1.0                   :p2b, 2026-04, 6w
+    Regional training rollout       :p2c, 2026-05, 4w
+    PM feedback loop                :p2d, 2026-04, 8w
+    Attach improvement              :milestone, p2m, 2026-06, 1d
+
+    section Phase 3: Expand It
+    SI pilot program                :p3a, 2026-07, 8w
+    Coverage expansion              :p3b, 2026-08, 12w
+    New vertical playbooks          :p3c, 2026-09, 8w
+    Product v2 influence            :p3d, 2026-07, 20w
+    Full coverage                   :milestone, p3m, 2026-12, 1d
+```
+
 ---
 
 ## Phase 1: Prove It (Month 1-3)

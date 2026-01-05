@@ -29,6 +29,33 @@
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+### Validation Timeline
+
+```mermaid
+timeline
+    title Hypothesis Validation Checkpoints
+    
+    section Month 3
+        H3 FE Enablement : FE confidence survey ≥60%
+                        : Apps conversations +50%
+        H6 Metrics Align : BU leaders accept metrics
+                        : First exec briefing delivered
+    
+    section Month 6
+        H1 Tip of Spear : Attach rate baseline + improvement
+                       : 3-5 strategic wins documented
+        H4 Archetypes   : Revenue by archetype tracked
+                       : 3 playbooks validated
+        H7 Net-New Focus: Win rate net-new vs migration
+                       : Opportunity qualification working
+    
+    section Month 9
+        H2 Ecosystem Moat : Win rate vs hyperscalers measured
+                         : Governance differentiator cited
+        H5 SI vs FDE      : 2+ SI-delivered apps launched
+                         : Time-to-value < Palantir FDE
+```
+
 ---
 
 ## Master Traceability Table
