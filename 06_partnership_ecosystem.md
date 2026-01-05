@@ -156,6 +156,63 @@ Partner with SIs who lead with an **App-first GTM motion** to scale solution del
 
 ---
 
+## ISV + SI Complementary Model
+
+ISVs and SIs scale adoption differently but work together as a **complementary motion**. ISVs accelerate the **build** phase; SIs enable the **deploy/operate** phase.
+
+### How ISVs and SIs Complement Each Other
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                 ISV + SI COMPLEMENTARY MODEL                    │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   PHASE: BUILD                    PHASE: DEPLOY/OPERATE         │
+│   ────────────                    ──────────────────            │
+│                                                                 │
+│   ┌─────────────┐                 ┌─────────────┐               │
+│   │     ISV     │  ──────────►    │     SI      │               │
+│   │  (Replit)   │                 │             │               │
+│   ├─────────────┤                 ├─────────────┤               │
+│   │ • Dev speed │                 │ • Delivery  │               │
+│   │ • Platform  │                 │ • Infra     │               │
+│   │   integration                 │ • Prod      │               │
+│   │ • Rapid     │                 │   readiness │               │
+│   │   prototyping                 │ • Support   │               │
+│   └─────────────┘                 └─────────────┘               │
+│                                                                 │
+│   ISV speeds up implementation    SI ensures production         │
+│   if strong integration exists    readiness and operability     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Division of Responsibility
+
+| Phase | Owner | Focus | Example |
+|-------|-------|-------|---------|
+| **Build** | ISV (e.g., Replit) | Speed up implementation via platform integration | Developer experience, rapid prototyping, templates |
+| **Deploy** | SI | Delivery, infrastructure setup | Architecture review, deployment automation |
+| **Operate** | SI | Production readiness, support | Monitoring, SLAs, ongoing maintenance |
+
+### When to Engage ISV + SI Together
+
+| Scenario | ISV Role | SI Role |
+|----------|----------|---------|
+| Enterprise customer, complex app | ISV accelerates initial build | SI ensures enterprise-grade deployment |
+| Regulated industry (FSI, HLS) | ISV provides rapid dev environment | SI handles compliance, infra hardening |
+| Large-scale deployment | ISV enables developer productivity | SI manages rollout, support |
+
+### ISV + SI Partnership Actions
+
+| Action | Purpose | Priority |
+|--------|---------|----------|
+| Identify ISV-SI pairing opportunities | Create complementary partnerships | 🟡 Medium |
+| Develop joint engagement model | Clarify handoff between build and deploy | 🟡 Medium |
+| Pilot ISV + SI engagement with 1 customer | Prove complementary model | 🟡 Medium |
+
+---
+
 ## Partner Type 4: GTM Industry Leads
 
 ### Strategic Goal
