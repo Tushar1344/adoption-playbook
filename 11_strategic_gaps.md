@@ -209,7 +209,54 @@
 
 ---
 
-### Gap 8: Playbooks Not Yet Created
+### Gap 9: Low App Retention and Active Users
+
+| Dimension | Assessment |
+|-----------|------------|
+| **Gap** | Low retention on apps; active users per app is low with power law distribution |
+| **Impact** | Apps churn before delivering value; undermines "tip of spear" narrative |
+| **Severity** | 🟡 Important (becoming Critical as scale increases) |
+| **Control** | Influence (PS engagement) + Own (motion design) |
+
+**Current Reality (Data Signal):**
+
+| Metric | Current State | Implication |
+|--------|---------------|-------------|
+| App retention | Low | Apps are abandoned before value delivered |
+| Active users per app | Low | Most apps have minimal engagement |
+| Distribution | Power law | Few apps drive most value; long tail of low-use apps |
+
+**Root Cause Analysis:**
+
+| Potential Cause | Evidence | Mitigation |
+|-----------------|----------|------------|
+| **Motion-customer mismatch** | Business outcome customers get shallow implementations | Match Quality motion to business customers |
+| **No PS engagement** | Deep implementations need support | Engage PS for Quality motion |
+| **Developer experience gap** | DN customers struggle to create apps | IDE integration for Quantity motion |
+| **No intentional motion design** | All customers treated the same | Segment by motion type |
+
+**Resolution Path:**
+
+| Motion | Resolution | Expected Impact |
+|--------|------------|-----------------|
+| **Quality** | PS engagement, deep implementation | Higher retention, business value |
+| **Quantity** | IDE integration, dev experience | More apps created, developer adoption |
+
+**Recommendation:**
+1. **Week 1-2:** Get baseline retention data by customer segment
+2. **Month 1:** Correlate PS engagement with retention
+3. **Month 2:** Pilot Quality motion with lighthouse accounts (PS-supported)
+4. **Month 3:** Pilot Quantity motion with DN accounts (IDE-focused)
+5. **Month 4+:** Measure retention improvement by motion
+
+**Owner:** Adoption Architect + Analytics
+**Dependencies:** Product telemetry, PS alignment, IDE partnerships
+
+**Related Hypothesis:** H8 (Quality vs Quantity determines success)
+
+---
+
+### Gap 10: Playbooks Not Yet Created
 
 | Dimension | Assessment |
 |-----------|------------|

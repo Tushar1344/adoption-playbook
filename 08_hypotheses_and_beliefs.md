@@ -348,9 +348,80 @@
 
 ---
 
+## Hypothesis 8: Quality vs Quantity Determines Adoption Success
+
+### Belief
+> Deep implementations with few apps (Quality motion) drive retention and stickiness for **business outcome-oriented customers**, while many lightweight apps (Quantity motion) drive coverage for **developer-centric customers**. Mismatching motion to customer profile leads to low retention.
+
+### Why You Believe This
+- Current retention is low—suggests motion-customer mismatch
+- Active users per app follows power law—few apps drive most value
+- Business outcome customers need depth and PS support
+- Digital Native customers value dev experience and IDE integration
+- Different metrics apply: Strategic Wins (Quality) vs Coverage (Quantity)
+
+### The Two Motions
+
+| Dimension | Quality Motion | Quantity Motion |
+|-----------|----------------|-----------------|
+| **Customer Profile** | Business outcome-oriented, Enterprise | Tech/Dev-centric, Digital Native |
+| **App Count** | Few (1-5 deep) | Many (10+ lightweight) |
+| **Success Metric** | Strategic Wins, Retention | Coverage, Active Developers |
+| **Support Model** | Professional Services | Self-serve, IDE integration |
+| **Phase Focus** | P1 (Prove It) | P2-P3 (Scale/Expand) |
+
+### Data Needed to Validate
+
+| Data Point | Source | Status |
+|------------|--------|--------|
+| Retention rate by customer segment (Enterprise vs DN) | Product telemetry | ⬜ Not collected |
+| Active users per app by customer segment | Product telemetry | ⬜ Not collected |
+| Correlation: PS engagement → retention | PS + Product data | ⬜ Not collected |
+| Correlation: IDE integration usage → app creation (DN) | Product telemetry | ⬜ Not collected |
+| Customer satisfaction by motion type | CSAT | ⬜ Not collected |
+| App count distribution by customer type | Product telemetry | ⬜ Not collected |
+
+### Current Reality (Data Signal)
+
+| Signal | Current State | Implication |
+|--------|---------------|-------------|
+| App retention | Low | Motion-customer mismatch |
+| Active users per app | Low, power law | Few apps drive value |
+| Distribution | Power law | Quality apps matter most |
+
+### Risks If Wrong
+- Quality motion is too expensive (PS-intensive)
+- Quantity motion leads to low-value churn
+- Customer segmentation is wrong
+- Retention has different root causes
+
+### If Validated
+- Segment customers explicitly by motion type
+- Engage PS for Quality motion customers
+- Prioritize IDE integration for Quantity motion customers
+- Track motion-specific metrics by segment
+
+### If Invalidated
+- Investigate other retention drivers
+- Reconsider customer segmentation
+- Look for product gaps that affect all customers equally
+
+### Cross-References
+
+| Document | Relevant Section | How It Connects |
+|----------|------------------|-----------------|
+| [05_adoption_patterns.md](05_adoption_patterns.md) | Quality vs Quantity Framework | Detailed motion comparison |
+| [06_partnership_ecosystem.md](06_partnership_ecosystem.md) | Professional Services | Quality motion enabler |
+| [06_partnership_ecosystem.md](06_partnership_ecosystem.md) | ISVs (IDE Experiences) | Quantity motion enabler |
+| [09_strategic_inputs.md](09_strategic_inputs.md) | North Star Metrics | Metrics tied to motions by phase |
+| [11_strategic_gaps.md](11_strategic_gaps.md) | Retention Gap | Documents current retention problem |
+| [10_action_plan.md](10_action_plan.md) | Motion-specific actions | Implementation across phases |
+
+---
+
 ## Add Your Hypotheses
 
-### Hypothesis 8: [Your Belief]
+### Hypothesis 9: [Your Belief]
 
 **Belief:**
 > *(What do you believe to be true?)*

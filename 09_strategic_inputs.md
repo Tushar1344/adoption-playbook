@@ -43,6 +43,37 @@
 | **6-9 months** | Attach Rates | SKU and use case attach driven by Apps | Validates "tip of spear" positioning |
 | **12+ months** | Coverage | Unique accounts with production Apps deployed | Scales proven motion |
 
+### Metrics Tied to Adoption Motions
+
+Different metrics apply to different customer profiles and adoption motions. See [05_adoption_patterns.md](05_adoption_patterns.md) for full framework.
+
+| Phase | Metric | Primary Motion | Customer Profile | Focus |
+|-------|--------|----------------|------------------|-------|
+| **P1 (M1-3)** | Strategic Wins | **Quality** | Business outcome-oriented, Enterprise | Few apps, deep implementation |
+| **P2 (M4-6)** | Attach Rates | **Both** | Transitional | Expansion validation |
+| **P3 (M7-12)** | Coverage | **Quantity** | Developer-centric, Digital Native | Many apps, dev experience |
+
+**Key Insight:** 
+- **Quality motion** (few apps, deep) drives **Strategic Wins** and **Retention**
+- **Quantity motion** (many apps, lightweight) drives **Coverage** and **Developer Adoption**
+
+### Motion-Specific Metrics
+
+| Motion | Primary Metrics | Secondary Metrics |
+|--------|-----------------|-------------------|
+| **Quality** | Strategic Wins, Retention Rate, Active Users per App | Business Value Documented, PS Engagement |
+| **Quantity** | Coverage, Apps Created, Active Developers | IDE Integration Usage, Self-serve Completion |
+
+### Current Reality (Data Signal)
+
+| Metric | Current State | Root Cause |
+|--------|---------------|------------|
+| Retention | Low | Motion-customer mismatch |
+| Active Users per App | Low (power law) | Most apps are low-value |
+| Distribution | Power law | Quality apps drive value |
+
+**Implication:** Without intentional motion design, apps default to low-value patterns. Must match motion to customer profile.
+
 ---
 
 ## Scope and Stakeholders

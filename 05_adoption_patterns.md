@@ -144,6 +144,85 @@ Archetypes are **not mutually exclusive**—a customer may fit multiple patterns
 
 ---
 
+## Quality vs Quantity: Two Adoption Motions
+
+Apps adoption requires **two distinct motions** based on customer profile. Matching motion to customer is critical for retention.
+
+### The Framework
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    QUALITY vs QUANTITY                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   QUALITY MOTION              QUANTITY MOTION                   │
+│   ──────────────              ───────────────                   │
+│   Business outcome focus      Developer experience focus        │
+│   Few apps, deep impl         Many apps, lightweight            │
+│   Pro Services support        IDE integration critical          │
+│   High stickiness             Dev mindshare governs             │
+│   Strategic Wins metric       Coverage metric                   │
+│   Early phase (P1)            Later phase (P2-3)                │
+│                                                                 │
+│   → Enterprise accounts       → Digital Native accounts         │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Motion Comparison
+
+| Dimension | Quality Motion | Quantity Motion |
+|-----------|----------------|-----------------|
+| **Customer Profile** | Business outcome-oriented | Tech/Developer-centric |
+| **Typical Segment** | Enterprise, Regulated | Digital Native (DN) |
+| **App Count** | Few (1-5 deep apps) | Many (10+ lightweight apps) |
+| **Implementation Depth** | Deep, production-grade | Lightweight, often ephemeral |
+| **Success Metric** | Strategic Wins, Retention | Coverage, Active Developers |
+| **Support Model** | Professional Services | Self-serve, IDE integration |
+| **Phase Focus** | P1 (Prove It) | P2-P3 (Scale/Expand) |
+| **Stickiness Driver** | Business value delivered | Developer mindshare |
+
+### Current Reality (Data Signal)
+
+| Metric | Current State | Implication |
+|--------|---------------|-------------|
+| **Retention** | Low | Motion-customer mismatch likely |
+| **Active Users per App** | Low (power law) | Few apps get most usage |
+| **Distribution** | Power law | Quality apps drive value, most apps are low-use |
+
+**Root Cause Hypothesis:** Without intentional motion design, apps default to low-value patterns. Deep implementations with PS support create stickiness; shallow implementations churn.
+
+### How to Select Motion
+
+| If Customer... | Then Use... | Why |
+|----------------|-------------|-----|
+| Talks about business outcomes | Quality | Need deep implementation |
+| Has few developers, business sponsor | Quality | PS support required |
+| Is regulated (FSI, HLS) | Quality | Compliance requires depth |
+| Has large dev team, tech-forward | Quantity | Dev mindshare critical |
+| Is Digital Native | Quantity | IDE/dev experience matters |
+| Wants many small tools | Quantity | Coverage metric applies |
+
+### Motion-Specific Playbook Elements
+
+**Quality Motion Playbook:**
+- Engage Professional Services early
+- Document business value delivered
+- Track retention and active users
+- Deep discovery workshop
+- Executive sponsorship required
+- Measure: Strategic Wins, Retention Rate
+
+**Quantity Motion Playbook:**
+- Prioritize IDE/dev experience
+- Self-serve enablement
+- Developer community building
+- Lightweight templates and accelerators
+- Track developer adoption
+- Measure: Coverage, Apps Created, Active Developers
+
+---
+
 ## Use Case Qualification Framework
 
 ### Fit Assessment Questions

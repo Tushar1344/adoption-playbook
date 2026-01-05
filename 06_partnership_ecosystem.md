@@ -61,7 +61,7 @@ Win **developer mindshare** by making Databricks the preferred platform for data
 
 ### Key ISV Categories
 
-#### A. IDE Experiences
+#### A. IDE Experiences (Critical for Quantity Motion)
 
 | Partner | Opportunity |
 |---------|-------------|
@@ -71,6 +71,17 @@ Win **developer mindshare** by making Databricks the preferred platform for data
 | **Antigravity** | Emerging developer tools |
 
 **Strategic Play:** Coding agents should easily integrate with Databricks and understand its services → Create an **opinionated, data-oriented IDE experience**.
+
+**Link to Quantity Motion:**
+- IDE experience is **critical for Digital Native customers**
+- Developer mindshare governs adoption in tech-forward accounts
+- Many lightweight apps require frictionless creation experience
+- IDE integration enables Quantity motion at scale
+
+| Motion | IDE Importance | Why |
+|--------|----------------|-----|
+| **Quality** | Lower | PS-supported, deep implementation |
+| **Quantity** | **Critical** | Dev experience drives adoption |
 
 #### B. AI/ML ISVs
 
@@ -210,6 +221,63 @@ Align with **GTM Industry Leads** to identify key Apps use cases by vertical and
 
 ---
 
+## Partner Type 5: Professional Services (Internal)
+
+### Strategic Goal
+Engage Professional Services to enable **deep implementations** for business outcome-oriented customers (Quality motion). PS engagement correlates with app retention and stickiness.
+
+### Why PS Matters for Apps
+
+| Dimension | Without PS | With PS |
+|-----------|-----------|---------|
+| **Implementation Depth** | Shallow, often abandoned | Deep, production-grade |
+| **Business Value** | Unclear, technical focus | Tied to outcomes |
+| **Retention** | Low | High |
+| **Stickiness** | Low | High |
+| **Executive Buy-in** | Limited | Strong |
+
+### When to Engage PS
+
+| Customer Profile | Engage PS? | Why |
+|------------------|------------|-----|
+| Business outcome-oriented | ✅ Yes | Need depth to prove value |
+| Enterprise, Regulated (FSI, HLS) | ✅ Yes | Compliance requires depth |
+| Few developers, business sponsor | ✅ Yes | Need hands-on support |
+| Strategic lighthouse account | ✅ Yes | Win must be bulletproof |
+| Digital Native, many developers | ❌ No | Self-serve, dev experience focus |
+| Tech-forward, IDE-centric | ❌ No | Quantity motion, not Quality |
+
+### PS Engagement Model for Apps
+
+| Phase | PS Role | Deliverable |
+|-------|---------|-------------|
+| **Discovery** | Business value workshop | Use case prioritization |
+| **Design** | Architecture review | Reference architecture |
+| **Build** | Hands-on implementation | Production app |
+| **Launch** | Go-live support | Operational readiness |
+| **Optimize** | Performance tuning | Retention checkpoint |
+
+### PS Capacity Considerations
+
+| Challenge | Mitigation |
+|-----------|------------|
+| PS capacity is limited | Prioritize lighthouse accounts |
+| Apps not yet PS priority | Exec sponsorship for Apps PS focus |
+| PS skills gap on Apps | PS enablement on app patterns |
+| Cost objections | Bundle PS with strategic deals |
+
+### PS Partnership Actions
+
+| Action | Purpose | Priority |
+|--------|---------|----------|
+| Align with PS leadership on Apps capacity | Ensure PS availability for Quality motion | 🔴 High |
+| Create PS enablement on Apps patterns | Build PS capability | 🔴 High |
+| Define PS engagement criteria for Apps | Clarify when to engage PS | 🟡 Medium |
+| Track PS engagement → retention correlation | Validate hypothesis | 🟡 Medium |
+| Develop PS-lite model for scale | Expand reach beyond lighthouse | 🟡 Medium |
+
+---
+
 ## Partnership Prioritization Matrix
 
 | Partner Type | 3-Month Focus | 6-Month Focus | 12-Month Focus |
@@ -218,6 +286,7 @@ Align with **GTM Industry Leads** to identify key Apps use cases by vertical and
 | **ISVs** | IDE partnership exploration | SDK development | Ecosystem showcase |
 | **SIs** | Identify 2-3 strategic partners | Joint enablement | Co-sell at scale |
 | **Industry Leads** | Align on use cases, document hackathon | Launch hackathons in 2 verticals | Full vertical coverage |
+| **Professional Services** | PS alignment, lighthouse engagement | PS capacity planning | PS-lite model for scale |
 
 ---
 

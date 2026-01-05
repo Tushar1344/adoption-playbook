@@ -106,8 +106,10 @@ Land 3-5 strategic wins that prove Apps can drive deep platform adoption.
 | **W4** | App discovery workshop design | H3, H4 | Adoption Architect + Enablement | ⬜ |
 | **W3-4** | Align with 3 industry leads on Apps use cases | H3 | Adoption Architect | ⬜ |
 | **W4** | Create guided selling triggers v1 | H3 | Adoption Architect | ⬜ |
+| **W2-4** | Align with PS leadership on Apps capacity | H8 | AA + PS Leadership | ⬜ |
+| **W3** | Get baseline retention data by customer segment | H8 | AA + Analytics | ⬜ |
 
-**Month 1 Checkpoint:** Council running, lighthouse accounts identified, first enablement drafts ready, FE baseline captured, industry leads engaged.
+**Month 1 Checkpoint:** Council running, lighthouse accounts identified, first enablement drafts ready, FE baseline captured, industry leads engaged, PS alignment started.
 
 ---
 
@@ -126,8 +128,10 @@ Land 3-5 strategic wins that prove Apps can drive deep platform adoption.
 | **W6-8** | Document "Month of Apps" playbook (Retail/Travel/CG) | H3 | Adoption Architect | ⬜ |
 | **W7** | Propose Apps demo for Data+AI Summit 2026 | H3 | Marketing + AA | ⬜ |
 | **W8** | Guided selling triggers training pilot | H3 | Adoption Architect | ⬜ |
+| **W5-6** | PS engagement for lighthouse accounts (Quality motion) | H8 | AA + PS | ⬜ |
+| **W7** | Correlate PS engagement with retention (analysis) | H8 | AA + Analytics | ⬜ |
 
-**Month 2 Checkpoint:** First enablement delivered, lighthouse accounts progressing, exec buy-in building, hackathon playbook documented.
+**Month 2 Checkpoint:** First enablement delivered, lighthouse accounts progressing, exec buy-in building, hackathon playbook documented, PS engaged for Quality motion.
 
 ---
 
@@ -146,8 +150,11 @@ Land 3-5 strategic wins that prove Apps can drive deep platform adoption.
 | **W12** | Exec readout on strategic wins | H6 | Adoption Architect | ⬜ |
 | **W10-12** | Define EBC Apps coverage standard with EBC team | H3 | AA + EBC Team | ⬜ |
 | **W11** | Create App First Demo repository (links) | H3 | AA + Industry Leads | ⬜ |
+| **W9-10** | Pilot Quality motion with 3 lighthouse accounts | H8 | AA + PS + FE | ⬜ |
+| **W11** | Document Quality motion playbook draft | H8 | Adoption Architect | ⬜ |
+| **W12** | Retention tracking by motion type (baseline) | H8 | AA + Analytics | ⬜ |
 
-**Month 3 Checkpoint:** 2-3 strategic wins, enablement scaled, exec alignment confirmed, EBC standard defined, demo repository live.
+**Month 3 Checkpoint:** 2-3 strategic wins, enablement scaled, exec alignment confirmed, EBC standard defined, demo repository live, Quality motion piloted.
 
 ### Phase 1 Hypothesis Decisions (End of Month 3)
 
@@ -155,6 +162,7 @@ Land 3-5 strategic wins that prove Apps can drive deep platform adoption.
 |------------|-------------------|--------------|----------------|
 | **H3** | FE confidence improved ≥20% | Scale enablement to all verticals | Investigate product blockers |
 | **H6** | 3+ BU leaders accept metrics | Operationalize attach tracking | Revise metric definitions |
+| **H8** | PS-engaged accounts show higher retention | Scale Quality motion with PS | Investigate other retention drivers |
 
 ---
 
@@ -188,6 +196,9 @@ Build attach rate tracking and scale proven playbooks across verticals.
 | **W16** | PM feedback prioritization review | All | Adoption Architect + PM | ⬜ |
 | **W14-16** | EBC Apps coverage pilot (5 strategic customers) | H3 | AA + EBC Team | ⬜ |
 | **W15** | Industry use case playbook: Retail | H3, H4 | AA + Retail Lead | ⬜ |
+| **W14** | PS capacity planning for Quality motion scale | H8 | AA + PS Leadership | ⬜ |
+| **W15-16** | IDE partnership exploration (Cursor, Windsurf) | H8 | AA + ISV Partners | ⬜ |
+| **W16** | Retention tracking dashboard (by motion) | H8 | AA + Analytics | ⬜ |
 
 ---
 
@@ -205,6 +216,9 @@ Build attach rate tracking and scale proven playbooks across verticals.
 | **W20** | Competitive intel refresh (hyperscalers) | H2, H5 | Adoption Architect | ⬜ |
 | **W18-20** | Industry use case playbooks: FSI, HLS | H3, H4 | AA + Industry Leads | ⬜ |
 | **W19** | Launch "Month of Apps" in FSI | H3 | FSI Lead + AA | ⬜ |
+| **W17-18** | Pilot Quantity motion with 2 DN accounts | H8 | AA + DN Lead | ⬜ |
+| **W19** | Document Quantity motion playbook draft | H8 | Adoption Architect | ⬜ |
+| **W20** | Developer adoption tracking (DN accounts) | H8 | AA + Analytics | ⬜ |
 
 ---
 
@@ -224,8 +238,11 @@ Build attach rate tracking and scale proven playbooks across verticals.
 | **W22-24** | Launch "Month of Apps" in HLS | H3 | HLS Lead + AA | ⬜ |
 | **W23** | Demo video library for field use | H3 | Marketing + AA | ⬜ |
 | **W24** | EBC Apps coverage scaled to 10+ customers | H3 | AA + EBC Team | ⬜ |
+| **W21-22** | Retention comparison: Quality vs Quantity motion | H8 | AA + Analytics | ⬜ |
+| **W23** | Publish Quality motion playbook v1 | H8 | Adoption Architect | ⬜ |
+| **W24** | Publish Quantity motion playbook v1 | H8 | Adoption Architect | ⬜ |
 
-**Phase 2 Checkpoint:** Attach tracking live, playbooks published, 5+ strategic wins, 2 hackathons launched, EBC coverage scaled.
+**Phase 2 Checkpoint:** Attach tracking live, playbooks published, 5+ strategic wins, 2 hackathons launched, EBC coverage scaled, both motions piloted with playbooks.
 
 ### Phase 2 Hypothesis Decisions (End of Month 6)
 
@@ -234,6 +251,7 @@ Build attach rate tracking and scale proven playbooks across verticals.
 | **H1** | Attach rate measurable and positive | Emphasize "tip of spear" narrative | Reposition Apps as standalone value |
 | **H4** | 80%+ wins fit 3 archetypes | Scale archetype playbooks | Refine or expand archetypes |
 | **H7** | Net-new win rate > migration | Maintain net-new focus | Reconsider migration for FY27 |
+| **H8** | Motion-matched accounts show better retention | Scale motion-specific playbooks | Investigate unified approach |
 
 ---
 
@@ -264,6 +282,9 @@ Drive coverage expansion and establish sustainable operating rhythm.
 | Product v2 features integrated into playbooks | H2 | Adoption Architect | M8 W4 | ⬜ |
 | Multi-product correlation analysis | H2 | Analytics + Adoption Architect | M8 W4 | ⬜ |
 | Coverage milestone: 30 accounts | H1 | FE teams | M9 W2 | ⬜ |
+| Quantity motion scale (DN playbook rollout) | H8 | AA + DN Lead | M7 W2 | ⬜ |
+| IDE integration pilot (1 partner) | H8 | AA + ISV Partners | M8 W4 | ⬜ |
+| PS scaled engagement model design | H8 | AA + PS Leadership | M9 W2 | ⬜ |
 | SI pilot launch (1-2 partners) | H5 | Partners + Adoption Architect | M9 W4 | ⬜ |
 
 ---
