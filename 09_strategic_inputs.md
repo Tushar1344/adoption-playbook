@@ -238,6 +238,19 @@
 
 **Your Action:** Lower priority, but include in PM feedback synthesis.
 
+### Blocker 5: GTM Alignment Gaps (Full Funnel)
+
+| Specific Gap | Impact | Field Signal |
+|--------------|--------|--------------|
+| FE doesn't identify Apps opportunities | Missed pipeline | Full-funnel gap starts at identification |
+| No guided selling triggers | FE doesn't know what to listen for | No framework for opportunity recognition |
+| Industry leads not aligned on Apps use cases | No vertical-specific playbooks | Use cases vary by industry |
+| Marketing events don't feature Apps demos | Low awareness, no "I want that!" moments | Events are key for exec visibility |
+| EBCs don't include Apps positioning | Strategic customers don't see Apps | Execs need to see Apps in action |
+| No internal hackathon momentum | FE not building Apps skills | "Month of Apps" proven model |
+
+**Your Action:** This is a high-control area. Work with Industry Leads, Marketing, and EBC team to close these gaps.
+
 ### Blocker Resolution Strategy
 
 | Blocker | Short-term (90 days) | Mid-term (6 months) |
@@ -246,6 +259,7 @@
 | **Security/Compliance** | PM escalation + create security patterns playbook | Mandatory training for regulated verticals |
 | **Architecture** | Configuration guides, model serving patterns | Full reference architectures |
 | **Observability** | Document limitation, suggest workarounds | Product improvement |
+| **GTM Alignment** | Guided selling triggers, industry lead alignment | Event presence, EBC coverage, hackathons |
 
 ---
 

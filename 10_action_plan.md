@@ -104,8 +104,10 @@ Land 3-5 strategic wins that prove Apps can drive deep platform adoption.
 | **W3** | Competitive talk track v1 (Palantir focus) | H5 | Adoption Architect | ⬜ |
 | **W4** | Exec briefing deck for SVP/VP alignment | H6 | Adoption Architect | ⬜ |
 | **W4** | App discovery workshop design | H3, H4 | Adoption Architect + Enablement | ⬜ |
+| **W3-4** | Align with 3 industry leads on Apps use cases | H3 | Adoption Architect | ⬜ |
+| **W4** | Create guided selling triggers v1 | H3 | Adoption Architect | ⬜ |
 
-**Month 1 Checkpoint:** Council running, lighthouse accounts identified, first enablement drafts ready, FE baseline captured.
+**Month 1 Checkpoint:** Council running, lighthouse accounts identified, first enablement drafts ready, FE baseline captured, industry leads engaged.
 
 ---
 
@@ -121,8 +123,11 @@ Land 3-5 strategic wins that prove Apps can drive deep platform adoption.
 | **W7** | Competitive talk track training | H5 | Adoption Architect | ⬜ |
 | **W8** | First strategic win candidate identified | H1 | Adoption Architect + FE | ⬜ |
 | **W8** | Attach rate definition proposal to BU leaders | H6 | Adoption Architect | ⬜ |
+| **W6-8** | Document "Month of Apps" playbook (Retail/Travel/CG) | H3 | Adoption Architect | ⬜ |
+| **W7** | Propose Apps demo for Data+AI Summit 2026 | H3 | Marketing + AA | ⬜ |
+| **W8** | Guided selling triggers training pilot | H3 | Adoption Architect | ⬜ |
 
-**Month 2 Checkpoint:** First enablement delivered, lighthouse accounts progressing, exec buy-in building.
+**Month 2 Checkpoint:** First enablement delivered, lighthouse accounts progressing, exec buy-in building, hackathon playbook documented.
 
 ---
 
@@ -139,8 +144,10 @@ Land 3-5 strategic wins that prove Apps can drive deep platform adoption.
 | **W12** | FE confidence survey (post-enablement) | H3 | Adoption Architect | ⬜ |
 | **W12** | Phase 1 retrospective + Phase 2 plan | All | Adoption Architect | ⬜ |
 | **W12** | Exec readout on strategic wins | H6 | Adoption Architect | ⬜ |
+| **W10-12** | Define EBC Apps coverage standard with EBC team | H3 | AA + EBC Team | ⬜ |
+| **W11** | Create App First Demo repository (links) | H3 | AA + Industry Leads | ⬜ |
 
-**Month 3 Checkpoint:** 2-3 strategic wins, enablement scaled, exec alignment confirmed.
+**Month 3 Checkpoint:** 2-3 strategic wins, enablement scaled, exec alignment confirmed, EBC standard defined, demo repository live.
 
 ### Phase 1 Hypothesis Decisions (End of Month 3)
 
@@ -179,6 +186,8 @@ Build attach rate tracking and scale proven playbooks across verticals.
 | **W15** | Cost/scaling guidance v1 | H7 | Adoption Architect + PM | ⬜ |
 | **W16** | BU+1 newsletter #2 | H6 | Adoption Architect | ⬜ |
 | **W16** | PM feedback prioritization review | All | Adoption Architect + PM | ⬜ |
+| **W14-16** | EBC Apps coverage pilot (5 strategic customers) | H3 | AA + EBC Team | ⬜ |
+| **W15** | Industry use case playbook: Retail | H3, H4 | AA + Retail Lead | ⬜ |
 
 ---
 
@@ -194,6 +203,8 @@ Build attach rate tracking and scale proven playbooks across verticals.
 | **W19** | Strategic wins #4-5 documented | H1 | Adoption Architect + FE | ⬜ |
 | **W20** | Discovery workshop scaled (all verticals) | H3 | Enablement team | ⬜ |
 | **W20** | Competitive intel refresh (hyperscalers) | H2, H5 | Adoption Architect | ⬜ |
+| **W18-20** | Industry use case playbooks: FSI, HLS | H3, H4 | AA + Industry Leads | ⬜ |
+| **W19** | Launch "Month of Apps" in FSI | H3 | FSI Lead + AA | ⬜ |
 
 ---
 
@@ -210,8 +221,11 @@ Build attach rate tracking and scale proven playbooks across verticals.
 | **W24** | Win rate analysis: Net-new vs migration | H7 | Adoption Architect | ⬜ |
 | **W24** | Phase 2 retrospective + Phase 3 plan | All | Adoption Architect | ⬜ |
 | **W24** | H1 exec readout | H6 | Adoption Architect | ⬜ |
+| **W22-24** | Launch "Month of Apps" in HLS | H3 | HLS Lead + AA | ⬜ |
+| **W23** | Demo video library for field use | H3 | Marketing + AA | ⬜ |
+| **W24** | EBC Apps coverage scaled to 10+ customers | H3 | AA + EBC Team | ⬜ |
 
-**Phase 2 Checkpoint:** Attach tracking live, playbooks published, 5+ strategic wins.
+**Phase 2 Checkpoint:** Attach tracking live, playbooks published, 5+ strategic wins, 2 hackathons launched, EBC coverage scaled.
 
 ### Phase 2 Hypothesis Decisions (End of Month 6)
 

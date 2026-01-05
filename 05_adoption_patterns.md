@@ -171,6 +171,56 @@ Archetypes are **not mutually exclusive**—a customer may fit multiple patterns
 
 ---
 
+## Guided Selling Triggers
+
+### Why Guided Selling Matters
+FE often doesn't recognize Apps opportunities even when present. These triggers help identify when to bring Apps into the conversation.
+
+### Conversation Triggers by Archetype
+
+| Customer Says/Does | Apps Opportunity? | Archetype | Next Step |
+|--------------------|-------------------|-----------|-----------|
+| "We need a dashboard for executives" | ✅ Yes | Cockpit | Qualify: What decisions? What data? |
+| "Our BI tool isn't working for business users" | ✅ Yes | Cockpit/Horizontal | Demo: Self-serve analytics app |
+| "We have ML models but can't operationalize them" | ✅ Yes | AI App | Explore: Model serving in app layer |
+| "We need real-time visibility into operations" | ✅ Yes | Cockpit | Qualify: What operations? Latency needs? |
+| "Our industry has a unique problem no tool solves" | ✅ Yes | Vertical | Explore: Custom app opportunity |
+| "Data team is bottleneck for business requests" | ✅ Yes | Horizontal | Demo: Self-serve data quality app |
+| "We want to build a customer-facing portal" | ⚠️ Maybe | - | Check: Internal or external? (External = wait) |
+| "We need to migrate our Java apps" | ❌ No | - | Defer: Not ready yet |
+| "We need infinite scalability" | ❌ No | - | Defer: Vertical scaling only today |
+
+### Account Signals to Watch
+
+| Signal in Account | Apps Opportunity? | Why |
+|-------------------|-------------------|-----|
+| Unity Catalog adopted | ✅ Strong | Governance foundation ready |
+| ML models in production | ✅ Strong | AI App opportunity |
+| Business users requesting data access | ✅ Strong | Horizontal App opportunity |
+| Large data footprint in Lakehouse | ✅ Strong | Data gravity for Apps |
+| Executive sponsor identified | ✅ Strong | Top-down adoption path |
+| Industry-specific pain point mentioned | ✅ Strong | Vertical App opportunity |
+| No Databricks footprint | ❌ Weak | Cold start too hard |
+| Legacy migration is priority | ❌ Weak | Not ready yet |
+
+### How to Use Triggers
+
+1. **Listen:** In every customer conversation, listen for trigger phrases
+2. **Recognize:** Match triggers to archetype opportunities
+3. **Qualify:** Use the Fit Assessment Questions (above) to validate fit
+4. **Position:** If qualified, introduce Apps with honest positioning
+5. **Demo:** Schedule App First Demo relevant to their vertical
+
+### Trigger Adoption Tracking
+
+| Metric | Definition | Target |
+|--------|------------|--------|
+| **Trigger Recognition Rate** | % of FE who can identify 3+ triggers | TBD |
+| **Trigger-to-Opportunity Rate** | % of triggers that become qualified opportunities | TBD |
+| **Opportunity-to-Win Rate** | % of Apps opportunities that close | TBD |
+
+---
+
 ## Adoption Signal Tracking
 
 ### Leading Indicators

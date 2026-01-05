@@ -183,6 +183,89 @@ These objections come from real field signal. Honest positioning is critical.
 
 ---
 
+## Marketing Events Strategy
+
+### Why Events Matter for Apps
+- Executives need to see Apps in action to say "I want that!"
+- Field needs demos to reference in customer conversations
+- Marketing events drive awareness and create demand
+
+### Event Calendar for Apps Visibility
+
+| Event | Timing | Target Demo | Owner | Status |
+|-------|--------|-------------|-------|--------|
+| **NRF (National Retail Federation)** | Jan | Retail cockpit: Inventory visibility app | Marketing + Retail Lead | ⬜ TBD |
+| **HIMSS (Healthcare)** | Mar | HLS cockpit: Clinical operations app | Marketing + HLS Lead | ⬜ TBD |
+| **Data+AI Summit** | Jun | Flagship Apps demo (multi-archetype) | Marketing | ⬜ TBD |
+| **Data+AI World Tours** | Ongoing | Regional Apps demos by vertical | Field Marketing | ⬜ TBD |
+| **AWS re:Invent** | Nov | Apps vs hyperscaler positioning demo | Marketing | ⬜ TBD |
+| **Google I/O** | May | AI-powered Apps demo | Marketing | ⬜ TBD |
+| **Money 20/20** | Oct | FSI cockpit: Risk dashboard app | Marketing + FSI Lead | ⬜ TBD |
+
+### Event Demo Requirements
+
+| Requirement | Description |
+|-------------|-------------|
+| **"I Want That!" Moment** | Demo must create immediate executive desire |
+| **Industry Relevance** | Vertical-specific use case, not generic |
+| **Platform Story** | Show data+AI integration, not just app |
+| **Leave-Behind** | QR code to demo environment or video |
+
+### Event Strategy Actions
+
+| Action | Owner | Timeline |
+|--------|-------|----------|
+| Propose Apps demo for Data+AI Summit 2026 | Marketing + AA | P1 (M1-3) |
+| Align with industry leads on vertical event presence | AA + Industry Leads | P1 (M1-3) |
+| Create demo video library for field use | Marketing + AA | P2 (M4-6) |
+
+---
+
+## EBC (Executive Briefing Center) Strategy
+
+### Why EBCs Matter
+- Strategic customers visit EBCs for executive-level engagement
+- Executives make platform decisions in EBCs
+- "I want that!" moments drive Apps adoption from the top
+
+### EBC Apps Coverage Standard
+
+| Element | Description | Owner |
+|---------|-------------|-------|
+| **Apps Positioning Slot** | 15-30 min segment on Apps in every EBC | EBC Team + AA |
+| **Live Demo** | Interactive Apps demo tailored to customer vertical | Industry Lead |
+| **Business Value Story** | ROI narrative, not just technical | AA |
+| **Customer Proof Point** | Reference customer in same vertical | AA |
+
+### EBC Demo by Vertical
+
+| Vertical | Demo | Key Message |
+|----------|------|-------------|
+| **Retail** | Inventory visibility cockpit | "Real-time business visibility" |
+| **FSI** | Risk dashboard with ML | "AI-powered decision making" |
+| **HLS** | Clinical operations app | "Data-driven care coordination" |
+| **MFG** | Supply chain cockpit | "End-to-end visibility" |
+| **DN** | Platform productivity app | "Democratize data access" |
+
+### EBC Success Metrics
+
+| Metric | Definition | Target |
+|--------|------------|--------|
+| **% of EBCs with Apps Demo** | EBCs that include Apps positioning | 80% by Q3 |
+| **Exec "I Want That!" Rate** | Post-EBC feedback indicating Apps interest | TBD |
+| **Apps Opportunities from EBCs** | Pipeline sourced from EBC Apps demos | TBD |
+
+### EBC Strategy Actions
+
+| Action | Owner | Timeline |
+|--------|-------|----------|
+| Define EBC Apps coverage standard with EBC team | AA + EBC Team | P1 (M1-3) |
+| Create EBC demo kit by vertical | AA + Industry Leads | P2 (M4-6) |
+| Pilot EBC Apps coverage with 5 strategic customers | AA + EBC Team | P2 (M4-6) |
+| Track EBC Apps pipeline influence | AA + Ops | P2 (M4-6) |
+
+---
+
 ## GTM Motion Gaps to Address
 
 - [ ] Define attach rate metrics with BU leaders
@@ -191,6 +274,9 @@ These objections come from real field signal. Honest positioning is critical.
 - [ ] Develop customer maturity assessment tool
 - [ ] Create objection-handling playbook with proof points
 - [ ] Identify and profile successful Apps customers for case studies
+- [x] Add event strategy for Apps visibility
+- [x] Add EBC strategy for executive exposure
+- [ ] Align with industry leads on use cases by vertical
 
 ---
 

@@ -145,6 +145,71 @@ Partner with SIs who lead with an **App-first GTM motion** to scale solution del
 
 ---
 
+## Partner Type 4: GTM Industry Leads
+
+### Strategic Goal
+Align with **GTM Industry Leads** to identify key Apps use cases by vertical and drive industry-specific adoption momentum.
+
+### Why Industry Leads Matter
+- FE doesn't see Apps opportunities without vertical context
+- Use cases vary significantly by industry
+- Industry leads control event presence, EBC content, field priorities
+- Execs need industry-relevant "I want that!" moments
+
+### Industry Lead Alignment Matrix
+
+| Industry | Lead | Use Cases by Archetype | App First Demo | Status |
+|----------|------|------------------------|----------------|--------|
+| **Retail** | TBD | Cockpit: Inventory visibility, Vertical: Demand sensing | [Link: TBD] | Not aligned |
+| **FSI** | TBD | Cockpit: Risk dashboard, Vertical: Fraud detection | [Link: TBD] | Not aligned |
+| **HLS** | TBD | Cockpit: Clinical ops, Vertical: Trial optimization | [Link: TBD] | Not aligned |
+| **MFG** | TBD | Cockpit: Supply chain, Vertical: Quality prediction | [Link: TBD] | Not aligned |
+| **DN (Digital Native)** | TBD | Horizontal: Platform tools, AI apps | [Link: TBD] | Not aligned |
+
+### Industry Lead Responsibilities
+
+| Responsibility | Description | Deliverable |
+|----------------|-------------|-------------|
+| **Use Case Definition** | Identify key Apps use cases by archetype for their vertical | Use case catalog |
+| **App First Demos** | Encourage and sponsor creation of industry-specific demos | Demo links |
+| **Event Presence** | Ensure Apps demos at industry events (NRF, HIMSS, etc.) | Event calendar |
+| **EBC Coverage** | Include Apps positioning in strategic customer EBCs | EBC agenda |
+| **Internal Hackathons** | Champion exec-sponsored "Month of Apps" initiatives | Hackathon outcomes |
+
+### Proven Model: "Month of Apps" Hackathon
+
+**Initiative:** Retail, Travel, Consumer Goods "Month of Apps"
+**Initiated by:** Adoption Architect
+**Format:** Exec-sponsored internal hackathon
+**Duration:** 1 month
+**Link:** [TBD - Add link to initiative]
+
+**Hackathon Playbook:**
+1. **Exec Sponsorship:** Secure VP/SVP support for the initiative
+2. **Theme:** Focus on industry-specific Apps use cases
+3. **Participation:** FE teams, SAs, Industry specialists
+4. **Deliverables:** Working App First Demos for the vertical
+5. **Showcase:** Present outcomes to field and customers
+6. **Outcomes:** [TBD - Document results]
+
+**Replication Plan:**
+- Q1: Document playbook from Retail/Travel/CG initiative
+- Q2: Launch in FSI and HLS
+- Q3: Launch in MFG and DN
+- Ongoing: Refresh demos annually
+
+### Industry Lead Partnership Actions
+
+| Action | Purpose | Priority |
+|--------|---------|----------|
+| Align with 5 industry leads on Apps use cases | Define vertical-specific opportunities | 🔴 High |
+| Create App First Demo repository | Centralize demo assets by industry | 🔴 High |
+| Document "Month of Apps" playbook | Enable replication across verticals | 🔴 High |
+| Establish EBC Apps coverage standard | Ensure exec visibility | 🟡 Medium |
+| Coordinate event presence | Apps demos at industry events | 🟡 Medium |
+
+---
+
 ## Partnership Prioritization Matrix
 
 | Partner Type | 3-Month Focus | 6-Month Focus | 12-Month Focus |
@@ -152,6 +217,7 @@ Partner with SIs who lead with an **App-first GTM motion** to scale solution del
 | **FE Teams** | Signal capture process | Enablement at scale | Apps champions network |
 | **ISVs** | IDE partnership exploration | SDK development | Ecosystem showcase |
 | **SIs** | Identify 2-3 strategic partners | Joint enablement | Co-sell at scale |
+| **Industry Leads** | Align on use cases, document hackathon | Launch hackathons in 2 verticals | Full vertical coverage |
 
 ---
 

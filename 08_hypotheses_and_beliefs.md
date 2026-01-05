@@ -104,15 +104,45 @@
 
 ---
 
-## Hypothesis 3: Field Enablement Is the Critical Blocker
+## Hypothesis 3: Full-Funnel GTM Gap (Refined)
 
-### Belief
-> The primary reason Apps isn't scaling faster is that Field Engineering lacks the skills and confidence to have app architecture conversations—not product limitations.
+### Belief (Original)
+> ~~The primary reason Apps isn't scaling faster is that Field Engineering lacks the skills and confidence to have app architecture conversations—not product limitations.~~
 
-### Why You Believe This
+### Belief (Refined - Jan 2026)
+> FE faces a **FULL-FUNNEL gap**: they don't identify Apps opportunities, can't qualify use cases, AND lack architecture conversation skills. The blocker starts **earlier than architecture**—at opportunity identification and qualification.
+
+### The Full Funnel Problem
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    FULL-FUNNEL GTM GAP                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   STAGE 1: IDENTIFY          ❌ FE doesn't see Apps opportunity │
+│   ─────────────────          Missing: Guided selling triggers   │
+│                                                                 │
+│   STAGE 2: QUALIFY           ❌ No qualification framework      │
+│   ────────────────           Missing: Use case fit criteria     │
+│                                                                 │
+│   STAGE 3: POSITION          ❌ Architecture uncertainty        │
+│   ─────────────────          Missing: Patterns, demos           │
+│                                                                 │
+│   STAGE 4: CLOSE             ⚠️ Product gaps block some deals   │
+│   ──────────────             Honest positioning needed          │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Why You Believe This (Updated)
 - FE is strong on Data/ML, weak on app patterns
 - Apps Cookbook is insufficient ("doesn't show what good looks like")
 - Similar GTM motions (new products) have required heavy enablement
+- **NEW:** FE doesn't even recognize Apps opportunity in conversations
+- **NEW:** No guided selling triggers or qualification framework
+- **NEW:** Industry GTM leads not aligned on Apps use cases by vertical
+- **NEW:** Marketing events don't feature Apps demos prominently
+- **NEW:** EBCs don't include Apps positioning for executives
 
 ### Data Needed to Validate
 
@@ -122,11 +152,17 @@
 | Apps conversations per FE per quarter | Activity tracking | ⬜ Not collected |
 | Win rate: Enabled FE vs. non-enabled FE | SFDC + training records | ⬜ Not collected |
 | FE feedback: "Why aren't you pitching Apps?" | Qualitative interviews | ⬜ Not collected |
+| **% of opportunities where Apps was considered but not positioned** | SFDC analysis | ⬜ Not collected |
+| **Qualification framework adoption rate** | Enablement tracking | ⬜ Not collected |
+| **Industry use case coverage (use cases defined per vertical)** | Industry lead alignment | ⬜ Not collected |
+| **% of EBCs with Apps demo** | EBC tracking | ⬜ Not collected |
+| **Marketing events with Apps demos** | Event calendar | ⬜ Not collected |
 
 ### Risks If Wrong
 - Enablement investment doesn't move adoption
 - Real blocker is product limitations or market timing
 - FE pushback is rational (product isn't ready)
+- **NEW:** GTM alignment effort is wasted if FE still can't identify opportunities
 
 ### Validation Evidence (Field Signal)
 
@@ -135,12 +171,28 @@
 | Jan 2026 | Field SA | Product gaps | Security/governance gaps are REAL and SPECIFIC: no public URLs, no firewall, no ingress/egress, CVE concerns | FE concerns about security are **product gaps**, not just enablement gaps |
 | Jan 2026 | Field SA | Product gaps | Complex model serving deployment | FE needs product improvement, not just training |
 | Jan 2026 | Field SA | Enablement need | "Need guides" for GPU/custom hardware config | Validates enablement gap for customization |
+| Jan 2026 | Adoption Architect | GTM observation | FE doesn't see Apps opportunity even when present | Full-funnel gap starts at identification |
+| Jan 2026 | Adoption Architect | GTM observation | Industry leads not aligned on Apps use cases | Need vertical-specific playbooks |
 
-**Implication for H3:** This hypothesis needs **refinement**. The blocker is **BOTH enablement AND product gaps**:
-- Enablement gap: FE needs patterns, guides, confidence-building
-- Product gap: Security limitations are real blockers that training can't solve
+**Implication for H3:** This hypothesis needs **expansion**, not just refinement:
+- **Identification gap:** Guided selling triggers needed
+- **Qualification gap:** Use case fit framework needed
+- **Architecture gap:** Patterns, demos, confidence-building needed
+- **Product gap:** Security limitations are real blockers that training can't solve
 
-**Updated Belief:** FE enablement is necessary but not sufficient. Must be paired with honest positioning around product limitations.
+**Updated Belief:** Full-funnel GTM enablement is needed—from opportunity identification through architecture. Must be paired with industry lead alignment, marketing visibility, EBC coverage, and honest positioning around product limitations.
+
+### Resolution Path
+
+| Gap | Resolution | Owner |
+|-----|------------|-------|
+| Identification | Guided selling triggers for FE | Adoption Architect |
+| Qualification | Use case fit framework by archetype | Adoption Architect |
+| Architecture | Patterns, reference architectures | Adoption Architect |
+| Industry Alignment | Use cases by vertical with industry leads | AA + Industry Leads |
+| Marketing Visibility | Apps demos at major events | Marketing + AA |
+| Executive Exposure | Apps in EBCs for "I want that!" moments | AA + EBC team |
+| Internal Momentum | "Month of Apps" hackathons | Industry Leads + AA |
 
 ### Cross-References
 
