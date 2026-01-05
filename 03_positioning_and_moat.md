@@ -4,6 +4,8 @@
 
 Databricks' strength in the app space comes from **platform synergy**, not standalone app capabilities.
 
+> **Positioning Principle:** Lead with ecosystem value. Be honest about platform maturity. Win where we're strong; defer where we're not ready.
+
 ### The Databricks Apps Moat
 
 ```
@@ -106,6 +108,65 @@ The synergies between Unity Catalog, Lakebase, AI/ML, and SQL/Jobs create an **a
 
 ---
 
+## Positioning Constraints (Field Signal: Jan 2026)
+
+The moat is real, but the product has gaps. Honest positioning builds trust and prevents failed deployments.
+
+### Where We Win Today
+
+| Use Case Type | Why We Win | Moat Pillar |
+|---------------|-----------|-------------|
+| **Internal data apps** | No external exposure needed | Unity Catalog + Lakebase |
+| **Analytics dashboards** | Data already in Lakehouse | SQL/Jobs + Unity Catalog |
+| **AI-powered internal tools** | Co-located models | AI/ML + Lakebase |
+| **Moderate-traffic apps** | Vertical scaling sufficient | All pillars |
+| **Apps for authenticated users** | Databricks auth works | Unity Catalog |
+
+### Where We Wait (Product Gaps)
+
+| Use Case Type | Current Gap | Impact | When Ready |
+|---------------|-------------|--------|------------|
+| **External-facing public apps** | No public URLs without login, no firewall, no ingress/egress | Can't expose to internet safely | TBD |
+| **High-burst traffic apps** | Vertical scaling only | Can't handle traffic spikes | TBD |
+| **Cost-sensitive variable workloads** | Fixed 24x7 pricing | Cost objections | TBD |
+| **GPU inference apps** | No GPU/custom hardware | Must use Model Serving instead | TBD |
+| **Hybrid OLTP apps** | Lakebase only | Can't connect external DBs | TBD |
+| **Branded customer portals** | No custom domains | Professional appearance blocker | TBD |
+
+### Positioning Matrix
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    POSITIONING MATRIX                           │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│                    INTERNAL              EXTERNAL               │
+│                    ────────              ────────               │
+│   LOW TRAFFIC      ✅ SWEET SPOT         ⚠️ AUTH WORKAROUND     │
+│                    Lead aggressively     Customer's auth layer  │
+│                                                                 │
+│   HIGH TRAFFIC     ⚠️ CAUTION            ❌ NOT READY           │
+│                    Vertical limits       Wait for product       │
+│                                                                 │
+│   AI-POWERED       ✅ DIFFERENTIATED     ⚠️ INTERNAL ONLY       │
+│                    Lead with moat        Model Serving + Apps   │
+│                                                                 │
+│   REGULATED        ✅ IF INTERNAL        ❌ COMPLIANCE GAPS     │
+│   (FSI/HLS)        Unity Catalog shines  No ingress/egress      │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Honest Messaging by Maturity Stage
+
+| Product Maturity | How to Position |
+|------------------|-----------------|
+| **Today (Early)** | "Best for internal, data-native apps that leverage your Lakehouse investment" |
+| **FY26 (Growing)** | "Expanding to more use cases as App Spaces and cost controls mature" |
+| **FY27+ (Mature)** | "Full-featured app platform with enterprise-grade external capabilities" |
+
+---
+
 ## Competitive Landscape
 
 ### Hyperscalers (AWS, Azure, GCP)
@@ -140,26 +201,45 @@ The synergies between Unity Catalog, Lakebase, AI/ML, and SQL/Jobs create an **a
 
 ## Messaging Framework
 
-### Elevator Pitch (Draft)
-> "Databricks Apps lets you build applications where your data, AI, and governance already live—eliminating integration complexity and accelerating time-to-value for intelligent applications."
+### Elevator Pitch (Refined for Maturity)
+> "Databricks Apps lets you build **internal, data-native applications** where your data, AI, and governance already live—eliminating integration complexity for teams already invested in the Lakehouse."
 
-### Key Messages by Audience
+**Note:** This pitch is honest about the sweet spot (internal, data-native). Expand as product matures.
 
-| Audience | Message |
-|----------|---------|
-| **Data Leaders** | "Extend your Lakehouse investment to operational use cases" |
-| **App Developers** | "Build AI-powered apps without stitching together services" |
-| **Security/Compliance** | "One governance model for data and applications" |
-| **Executives** | "Consolidate your data+AI platform—apps included" |
+### Key Messages by Audience (Updated)
+
+| Audience | Message | Caveat to Add If Asked |
+|----------|---------|------------------------|
+| **Data Leaders** | "Extend your Lakehouse investment to internal operational apps" | "External-facing apps are on the roadmap" |
+| **App Developers** | "Build AI-powered apps without stitching together services" | "Best for moderate-traffic, internal use cases today" |
+| **Security/Compliance** | "One governance model for data and applications" | "External exposure controls coming soon" |
+| **Executives** | "Start consolidating your data+AI platform—apps included" | "We're building toward full parity" |
+
+### What NOT to Promise (Today)
+
+| Don't Promise | Why | What to Say Instead |
+|---------------|-----|---------------------|
+| "Infinite scalability" | Vertical only | "Scales well for moderate workloads" |
+| "Public-facing apps" | No external security | "Best for internal apps today" |
+| "Pay-per-use pricing" | Fixed 24x7 | "Predictable pricing model" |
+| "Full hyperscaler parity" | Still building | "Differentiated on data+AI integration" |
+
+### Competitive Positioning (Honest Version)
+
+| Competitor | What They Do Better | What We Do Better | How to Position |
+|------------|--------------------|--------------------|-----------------|
+| **Hyperscalers** | App platform maturity, scalability, external exposure | Data+AI integration, governance | "Use us for data-native apps; use them for pure web apps" |
+| **Palantir** | FDE motion, solution depth, business access | Openness, economics, platform breadth | "Open platform, better economics, no lock-in" |
+| **Snowflake** | Native apps marketplace | AI/ML depth, Lakebase, governance | "Full AI platform vs. analytics-only" |
 
 ---
 
 ## Positioning Gaps to Address
 
-- [ ] How do we handle "why not just use [hyperscaler app service]?" objection?
-- [ ] How do we position against Palantir's FDE motion?
-- [ ] What's the "proof point" story for each differentiator?
-- [ ] How do we message limitations while platform matures?
+- [x] How do we handle "why not just use [hyperscaler app service]?" → Use for data-native apps; hyperscaler for pure web
+- [ ] How do we position against Palantir's FDE motion? → SI partnerships (see [06_partnership_ecosystem.md](06_partnership_ecosystem.md))
+- [ ] What's the "proof point" story for each differentiator? → Need lighthouse wins
+- [x] How do we message limitations while platform matures? → Honest positioning (see above)
 
 ---
 
