@@ -4,7 +4,7 @@ A playbook for driving adoption of Databricks Apps as Adoption Architect Lead.
 
 ---
 
-### Book Project: Databricks Apps Adoption
+### Databricks Apps Adoption: Foundations & Context
 
 The foundation—product context, positioning, and go-to-market strategy.
 
