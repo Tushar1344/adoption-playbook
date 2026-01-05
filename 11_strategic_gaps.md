@@ -112,9 +112,44 @@
 
 ---
 
+### Gap 5: Product Gaps Block Enterprise Adoption (Field Signal)
+
+| Dimension | Assessment |
+|-----------|------------|
+| **Gap** | Specific product limitations blocking enterprise use cases, documented from field |
+| **Impact** | Deals lost or delayed; regulated industries blocked; competitive disadvantage |
+| **Severity** | 🔴 Critical |
+| **Control** | Influence (PM roadmap) |
+
+**Field Signal Summary (Jan 2026):**
+
+| Gap Cluster | Specific Gaps | Blocked Use Cases |
+|-------------|---------------|-------------------|
+| **Security** | No public URLs without login, no firewall, no ingress/egress, CVE concerns | External-facing apps, FSI/HLS apps |
+| **Scaling** | Vertical only, no horizontal | High-traffic apps, distributed architectures |
+| **Cost** | Fixed 24x7 pricing | Cost-sensitive customers |
+| **Customization** | No GPU config, complex model serving, Lakebase only | AI inference apps, hybrid apps |
+| **Observability** | No user sessions, no access patterns | All apps (post-deployment) |
+
+**Recommendation:**
+1. **Immediate:** Document this signal in Field Signal Log (see below)
+2. **Week 1:** Package into PM-ready feedback with use case attribution
+3. **Week 2:** Present to PM in Apps Adoption Council
+4. **Ongoing:** Track deal losses attributed to these gaps
+5. **Monthly:** Synthesize new field signal into PM feedback
+
+**Loss Analysis Action:**
+- For each blocked deal, document: customer, use case, specific gap, competitive alternative chosen
+- Aggregate monthly; present to PM with revenue impact
+
+**Owner:** Adoption Architect
+**Dependencies:** PM receptivity, field cooperation in reporting losses
+
+---
+
 ## Important Gaps (🟡)
 
-### Gap 5: Apps Adoption Council Not Established
+### Gap 6: Apps Adoption Council Not Established (Renumbered)
 
 | Dimension | Assessment |
 |-----------|------------|
@@ -134,7 +169,7 @@
 
 ---
 
-### Gap 6: Product Feedback Loop Needs Improvement
+### Gap 7: Product Feedback Loop Needs Improvement
 
 | Dimension | Assessment |
 |-----------|------------|
@@ -154,7 +189,7 @@
 
 ---
 
-### Gap 7: Reference Architectures Missing
+### Gap 8: Reference Architectures Missing
 
 | Dimension | Assessment |
 |-----------|------------|
@@ -339,6 +374,56 @@
 | Gap 7 | Complete reference architectures | Adoption Architect | ⬜ |
 | Gap 8 | Draft and pilot playbooks | Adoption Architect | ⬜ |
 | Gap 9 | Conduct SI partnership assessment | AA + Partners | ⬜ |
+
+---
+
+## Field Signal Log
+
+*Systematic capture of field feedback for PM influence and loss analysis.*
+
+### Active Signal Log
+
+| Date | Source | Category | Gap | Use Case Blocked | Customer | Lost Deal? | PM Ticket | Status |
+|------|--------|----------|-----|------------------|----------|------------|-----------|--------|
+| Jan 2026 | Field SA | Security | No public URLs without login | External-facing apps | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Security | No firewall | Internet-exposed apps | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Security | No ingress/egress controls | FSI/HLS compliance | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Security | CVE protection unclear | Enterprise security review | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Scaling | Vertical only | High-traffic apps | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Cost | Fixed 24x7 pricing | Cost-sensitive deals | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Customization | No GPU config | AI inference apps | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Model Serving | Complex deployment | ML-powered apps | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Database | Lakebase only | Hybrid OLTP apps | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Domains | No custom domains | Branded apps | TBD | TBD | TBD | New |
+| Jan 2026 | Field SA | Observability | No user sessions | All apps | TBD | TBD | TBD | New |
+
+### Signal Log Process
+
+1. **Capture:** When field reports a gap, add row to this log
+2. **Enrich:** Work with account team to get customer name, deal impact
+3. **Escalate:** Package into weekly PM feedback (Apps Adoption Council)
+4. **Track:** Update status as PM responds (Acknowledged → Roadmap → Shipped)
+5. **Close:** Remove from active log when resolved
+
+### Signal Status Values
+
+| Status | Meaning |
+|--------|---------|
+| **New** | Just captured, not yet enriched |
+| **Enriched** | Customer + deal impact documented |
+| **Escalated** | Shared with PM |
+| **Acknowledged** | PM accepted feedback |
+| **Roadmap** | PM committed to address |
+| **Shipped** | Gap resolved in product |
+| **Won't Fix** | PM declined; document workaround |
+
+### Loss Analysis Summary
+
+*Update monthly with deals lost to product gaps.*
+
+| Month | Deals Lost | Primary Gap | Total ACV Impact | Notes |
+|-------|------------|-------------|------------------|-------|
+| Jan 2026 | TBD | TBD | TBD | Initial baseline |
 
 ---
 

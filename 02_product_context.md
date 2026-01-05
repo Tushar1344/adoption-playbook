@@ -29,11 +29,42 @@
 
 ## Product Limitations (Current)
 
+### High-Level Limitations
+
 | Limitation | Impact | Expected Resolution |
 |------------|--------|---------------------|
 | **Legacy App Support** | Cannot migrate Java/.NET enterprise apps | FY27 (next year) |
 | **Cost Control** | No fine-grained cost management | In development |
 | **Scalability** | Not yet "infinite" like hyperscalers | In development |
+
+### Detailed Gap Inventory (Field Signal: Jan 2026)
+
+| Category | Gap | Impact | Use Case Blocked | Source |
+|----------|-----|--------|------------------|--------|
+| **Scaling** | Vertical scaling only | Can't handle burst workloads | High-traffic apps | Field SA |
+| **Scaling** | No horizontal scaling | Limits distributed app patterns | Multi-instance apps | Field SA |
+| **Customization** | No GPU/custom hardware config | Can't run GPU-intensive workloads | AI inference apps | Field SA |
+| **Customization** | Needs configuration guides | Developers unsure how to optimize | All | Field SA |
+| **Model Serving** | Complex standard model deployment | Friction for ML-powered apps | AI apps | Field SA |
+| **Database** | Lakebase only, no external DB | Can't connect to existing OLTP | Hybrid apps | Field SA |
+| **Domains** | No custom domains/vanity URLs | Can't brand customer-facing apps | External apps | Field SA |
+| **Security** | No public URLs without Databricks login | Blocks external-facing apps | Customer portals | Field SA |
+| **Security** | No firewall for external apps | Can't safely expose to internet | Public apps | Field SA |
+| **Security** | No ingress/egress controls | Compliance blocker (regulated industries) | FSI, HLS apps | Field SA |
+| **Security** | CVE protection unclear | Security team concerns | Enterprise apps | Field SA |
+| **Security** | File system security gaps | App server hardening concerns | All | Field SA |
+| **Cost** | Fixed 24x7 pricing only | No pay-per-use, cost unpredictable | Cost-sensitive apps | Field SA |
+| **Observability** | No user session tracking | Can't analyze user behavior | All | Field SA |
+| **Observability** | No access pattern analytics | Can't optimize app performance | All | Field SA |
+
+### Gap Priority for PM Feedback
+
+| Priority | Gap Cluster | Deal Impact | Action |
+|----------|-------------|-------------|--------|
+| **1** | Security (public apps, firewall, ingress/egress) | Blocks regulated industries | Escalate to PM immediately |
+| **2** | Cost (fixed pricing) | Objection in every deal | Include in PM feedback cycle |
+| **3** | Scaling (horizontal) | Limits architecture patterns | Track loss analysis |
+| **4** | Observability | Post-deployment friction | Lower priority |
 
 ### Current Sweet Spot
 - **Net-new applications** built natively on Databricks

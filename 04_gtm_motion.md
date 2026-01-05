@@ -134,6 +134,32 @@ Field teams raise three consistent objections to pushing new products:
 
 ---
 
+### Objection 4: Product Limitations (Field Signal: Jan 2026)
+> "The product has gaps that block my customer's use case."
+
+These objections come from real field signal. Honest positioning is critical.
+
+| Objection | Current Reality | Response |
+|-----------|-----------------|----------|
+| "Can Apps scale horizontally?" | **No.** Vertical scaling only. | Position for **moderate-traffic internal apps**. For high-burst workloads, recommend waiting or using hybrid architecture. |
+| "Can we deploy public-facing apps?" | **Limited.** No public URLs without Databricks login, no firewall, no ingress/egress controls. | Position for **internal apps** or apps behind customer's own auth layer. External-facing is on roadmap—document customer need. |
+| "What about cost control?" | **Fixed 24x7 pricing only.** No pay-per-use. | Be transparent. Best fit is apps with **consistent usage patterns**. Highly variable workloads may see cost objections. |
+| "Can we use GPUs?" | **No GPU/custom hardware config.** | Position for **CPU-based workloads**. GPU inference should use Model Serving, not Apps. |
+| "Can we connect to external databases?" | **Lakebase only.** | Position for apps that **natively use Lakehouse data**. Hybrid OLTP apps are not a fit today. |
+| "What about CVE protection?" | **Unclear.** | Escalate to security team for specific customer concerns. Document and feed to PM. |
+
+**Key Message:** Apps is best for **internal, data-native, moderate-traffic applications**. Be honest about limitations; it builds trust and prevents failed deployments.
+
+**When to Walk Away (For Now):**
+- Customer needs external-facing apps with internet exposure
+- Customer needs horizontal auto-scaling for burst traffic
+- Customer is highly cost-sensitive with variable workloads
+- Customer requires GPU inference in the app layer
+
+**Document Every "Walk Away":** These are loss analysis signals. Feed to PM via Field Signal Log.
+
+---
+
 ## ICP Definition (To Be Validated)
 
 ### Ideal Customer Profile for Apps

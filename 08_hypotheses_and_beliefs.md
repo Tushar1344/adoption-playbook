@@ -47,6 +47,16 @@
 - Field loses trust in "influenced revenue" narrative
 - Investment in Apps GTM doesn't pay off
 
+### Validation Evidence (Field Signal)
+
+| Date | Source | Evidence Type | Finding | Implication |
+|------|--------|---------------|---------|-------------|
+| Jan 2026 | Field SA | Product gaps | Security gaps (public URLs, firewall, ingress/egress) block external-facing apps | Tip-of-spear motion limited to internal apps until gaps addressed |
+| Jan 2026 | Field SA | Product gaps | Scaling limitations (vertical only) | High-traffic app use cases blocked |
+| Jan 2026 | Field SA | Product gaps | Cost controls (fixed 24x7) | Cost objections may limit expansion |
+
+**Implication for H1:** The "tip of spear" motion may be **constrained to specific use case types** (internal apps, moderate traffic) until product gaps are resolved. Adjust positioning accordingly.
+
 ### Cross-References
 
 | Document | Relevant Section | How It Connects |
@@ -55,6 +65,7 @@
 | [09_strategic_inputs.md](09_strategic_inputs.md) | Attach Rate Measurement | Metrics definitions to validate this hypothesis |
 | [10_action_plan.md](10_action_plan.md) | Phase 2: Month 4 | Attach rate tracking implementation |
 | [12_traceability.md](12_traceability.md) | H1 Row | Full traceability chain |
+| [02_product_context.md](02_product_context.md) | Detailed Gap Inventory | Product limitations that constrain this hypothesis |
 
 ---
 
@@ -117,13 +128,29 @@
 - Real blocker is product limitations or market timing
 - FE pushback is rational (product isn't ready)
 
+### Validation Evidence (Field Signal)
+
+| Date | Source | Evidence Type | Finding | Implication |
+|------|--------|---------------|---------|-------------|
+| Jan 2026 | Field SA | Product gaps | Security/governance gaps are REAL and SPECIFIC: no public URLs, no firewall, no ingress/egress, CVE concerns | FE concerns about security are **product gaps**, not just enablement gaps |
+| Jan 2026 | Field SA | Product gaps | Complex model serving deployment | FE needs product improvement, not just training |
+| Jan 2026 | Field SA | Enablement need | "Need guides" for GPU/custom hardware config | Validates enablement gap for customization |
+
+**Implication for H3:** This hypothesis needs **refinement**. The blocker is **BOTH enablement AND product gaps**:
+- Enablement gap: FE needs patterns, guides, confidence-building
+- Product gap: Security limitations are real blockers that training can't solve
+
+**Updated Belief:** FE enablement is necessary but not sufficient. Must be paired with honest positioning around product limitations.
+
 ### Cross-References
 
 | Document | Relevant Section | How It Connects |
 |----------|------------------|-----------------|
 | [04_gtm_motion.md](04_gtm_motion.md) | Field Readiness Assessment | Documents the current FE capability gap |
 | [09_strategic_inputs.md](09_strategic_inputs.md) | Field Enablement Priorities | 90-day training sprint to test this hypothesis |
+| [09_strategic_inputs.md](09_strategic_inputs.md) | Top Blockers | Detailed product gaps that limit enablement impact |
 | [10_action_plan.md](10_action_plan.md) | Phase 1: Month 2 | Enablement sprint actions |
+| [11_strategic_gaps.md](11_strategic_gaps.md) | Gap 5: Product Gaps | Specific gaps from field signal |
 | [12_traceability.md](12_traceability.md) | H3 Row | Full traceability chain |
 
 ---

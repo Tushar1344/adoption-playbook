@@ -186,21 +186,66 @@
 
 ---
 
-## Top 3 Blockers (Prioritized)
+## Top Blockers (Prioritized)
 
 | Rank | Blocker | Type | Urgency | Your Action |
 |------|---------|------|---------|-------------|
 | **1** | Scalability + Cost Controls | Product Gap | 🔴 Critical | PM feedback, manage field expectations |
-| **2** | Security/Compliance for AI Apps | Enablement Gap | 🔴 Critical | Create patterns, training content |
+| **2** | Security/Compliance for AI Apps | Product + Enablement Gap | 🔴 Critical | PM feedback + create patterns |
 | **3** | App Architecture Uncertainty | Enablement Gap | 🟡 Important | Reference architectures (not urgent) |
+| **4** | Observability Gaps | Product Gap | 🟡 Important | PM feedback, workarounds |
+
+### Blocker 1: Scalability + Cost Controls (Field Signal Detail)
+
+| Specific Gap | Impact | Field Quote/Context |
+|--------------|--------|---------------------|
+| Vertical scaling only | Can't handle burst workloads | "No horizontal scaling" |
+| Fixed 24x7 pricing | Cost unpredictable, blocks cost-sensitive deals | "Fixed price for 24x7" |
+| No horizontal scaling | Limits distributed architecture patterns | Field SA feedback |
+
+**Your Action:** Synthesize into PM feedback with specific use cases blocked.
+
+### Blocker 2: Security/Compliance (Field Signal Detail)
+
+| Specific Gap | Impact | Field Quote/Context |
+|--------------|--------|---------------------|
+| No public URLs without Databricks login | Blocks external-facing apps | "Deploying apps to public URL" |
+| No firewall for external apps | Can't safely expose to internet | "Don't have a firewall" |
+| No ingress/egress controls | Compliance blocker for FSI, HLS | "Ingress/Egress controls" |
+| CVE protection unclear | Security teams block adoption | "Are we able to protect customers?" |
+| File system security | App server hardening concerns | "Securing app servers" |
+
+**Your Action:** Escalate security cluster to PM as #1 priority. Also create enablement content for workarounds.
+
+### Blocker 3: Architecture Uncertainty (Enablement Gap)
+
+| Specific Gap | Impact | Resolution |
+|--------------|--------|------------|
+| No GPU/custom hardware guides | Developers unsure how to configure | Create configuration guides |
+| Complex model serving | Friction deploying standard models | Document patterns |
+| Lakebase-only database | Can't connect external DBs | Document limitation + workarounds |
+| No custom domains | Can't brand customer-facing apps | Document limitation |
+
+**Your Action:** Prioritize configuration guides and model serving patterns in enablement content.
+
+### Blocker 4: Observability Gaps (Field Signal Detail)
+
+| Specific Gap | Impact | Field Quote/Context |
+|--------------|--------|---------------------|
+| Infrastructure observability only | Can't analyze user behavior | "Access patterns, user sessions" |
+| No user session tracking | Can't troubleshoot user issues | Field SA feedback |
+| No access pattern analytics | Can't optimize app performance | Field SA feedback |
+
+**Your Action:** Lower priority, but include in PM feedback synthesis.
 
 ### Blocker Resolution Strategy
 
 | Blocker | Short-term (90 days) | Mid-term (6 months) |
 |---------|----------------------|---------------------|
 | **Scalability/Cost** | Set expectations, position for right use cases | Product delivers app spaces improvements |
-| **Security/Compliance** | Create security patterns playbook | Mandatory training for regulated verticals |
-| **Architecture** | Basic patterns in cookbook | Full reference architectures |
+| **Security/Compliance** | PM escalation + create security patterns playbook | Mandatory training for regulated verticals |
+| **Architecture** | Configuration guides, model serving patterns | Full reference architectures |
+| **Observability** | Document limitation, suggest workarounds | Product improvement |
 
 ---
 
