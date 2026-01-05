@@ -35,6 +35,7 @@ Field Engineering teams (especially EPLs - Enterprise Platform Leads) serve as t
 - **Feedback loop** to Product and Adoption Architect
 
 ### Current State
+
 | Dimension | Status |
 |-----------|--------|
 | Data/ML expertise | ✅ Strong |

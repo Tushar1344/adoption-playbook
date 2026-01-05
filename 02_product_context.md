@@ -45,18 +45,21 @@
 ## Product Roadmap
 
 ### Near-Term (FY26)
+
 | Initiative | Description |
 |------------|-------------|
 | **App Spaces** | Related apps that can be spun up/down easily |
 | **Cost Efficiency** | Improved resource management for app clusters |
 
 ### Mid-Term (FY27)
+
 | Initiative | Description |
 |------------|-------------|
 | **Legacy Framework Support** | Java/.NET app migration capability |
 | **Fully Featured Apps** | More complete app development experience |
 
 ### Long-Term Vision
+
 | Initiative | Description |
 |------------|-------------|
 | **Vertical SaaS on Apps** | CDP, Cybersecurity Analytics built on Apps platform |

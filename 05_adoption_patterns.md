@@ -180,6 +180,7 @@ Archetypes are **not mutually exclusive**—a customer may fit multiple patterns
 ## Adoption Signal Tracking
 
 ### Leading Indicators
+
 | Signal | What It Indicates |
 |--------|-------------------|
 | Unity Catalog adoption | Governance readiness for Apps |
@@ -188,6 +189,7 @@ Archetypes are **not mutually exclusive**—a customer may fit multiple patterns
 | Business user access requests | Demand for self-serve Apps |
 
 ### Lagging Indicators
+
 | Signal | What It Indicates |
 |--------|-------------------|
 | Apps SKU adoption | Direct revenue |
